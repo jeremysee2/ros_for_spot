@@ -1,0 +1,10 @@
+[submodule "catkin_ws/src/spot_ros"]
+	path = catkin_ws/src/spot_ros
+	url = https://github.com/jeremysee2/spot_ros.git
+[submodule "catkin_ws/src/geometry2"]
+	path = catkin_ws/src/geometry2
+	url = https://github.com/ros/geometry2.git
+	branch = noetic-devel
+[submodule "viz/spot-arm"]
+	path = viz/spot-arm
+	url = https://github.com/estherRay/Spot-Arm.git

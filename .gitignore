@@ -1,0 +1,7 @@
+catkin_ws/build*
+catkin_ws/devel*
+
+# Convenience files to run a dev environment in docker
+compose-dev.yaml
+setup.sh
+viz/workspace*
