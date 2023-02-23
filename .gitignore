@@ -6,3 +6,4 @@ compose-dev.yaml
 setup.sh
 viz/workspace*
 .vscode/
+*.DS_Store
