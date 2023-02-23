@@ -8,4 +8,4 @@ Deployment on the Spot Core is achieved with Docker containers. For a detailed s
 
 ## Simulation
 
-In order to visulization what the robot will do in RViz, follow [instructions here](viz/viz.md).
+In order to visualize what the robot will do in RViz, follow [instructions here](viz/viz.md).

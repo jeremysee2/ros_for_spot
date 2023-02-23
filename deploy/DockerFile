@@ -1,6 +1,6 @@
 FROM ros:noetic-ros-base-focal
 
-RUN apt install -y python3-pip git qttools5-dev
+RUN apt install -y python3-pip git qttools5-dev ros-noetic-tf2-bullet
 RUN pip install -r requirements.txt
 RUN source /opt/ros/noetic/setup.bash
 
@@ -17,3 +17,12 @@ RUN catkin_make --cmake-args -DCMAKE_BUILD_TYPE=Release
 
 # Source the new packages
 RUN source ~/catkin_ws/devel/setup.bash
+
+# Setup the environmental variables for including these in the URDF
+ARG SPOT_ARM=1
+ARG SPOT_PACK=1
+ARG SPOT_LIDAR_MOUNT=1
+ARG SPOT_VELODYNE=1
+
+# Start ROS node for Lidar automatically
+ARG SPOT_VELODYNE_AUTOLAUNCH=1
