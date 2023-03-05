@@ -8,3 +8,6 @@
 [submodule "viz/spot-arm"]
 	path = viz/spot-arm
 	url = https://github.com/estherRay/Spot-Arm.git
+[submodule "catkin/src/velodyne"]
+	path = catkin/src/velodyne
+	url = https://github.com/ros-drivers/velodyne.git
