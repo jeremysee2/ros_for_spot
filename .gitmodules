@@ -7,3 +7,7 @@
 [submodule "catkin_ws/src/spot_navigation"]
 	path = catkin_ws/src/spot_navigation
 	url = https://github.com/jeremysee2/spot_navigation.git
+[submodule "catkin_ws/src/rtabmap_ros"]
+	path = catkin_ws/src/rtabmap_ros
+	url = https://github.com/introlab/rtabmap_ros.git
+	branch = noetic-devel
